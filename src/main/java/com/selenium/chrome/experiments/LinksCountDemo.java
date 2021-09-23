@@ -13,6 +13,7 @@ public class LinksCountDemo {
         System.setProperty("webdriver.chrome.driver", "/Users/niloymazumder/Documents/IdeaProjects/WebDriver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+        
 
         driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
         System.out.println(driver.findElements(By.tagName("a")).size());
